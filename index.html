@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+  <form align="center" style="margin-top:100px;">
+    <label >Username</label>
+    <input type="text" id="username">
+    <br><br>
+    <label >Password</label>
+    <input type="text" id="password">
+    <br><br>
+    <button>Submit</button>
+  </form>
+  <script>
+    document.querySelector('button').addEventListener('click',()=>{
+      const username=document.getElementById('username');
+    const u=username.value.length;
+    if(u<=8)
+    alert("enter valid username");
+    const password=document.getElementById('password');
+    const p=username.value.length;
+    if(p<=8)
+    alert("enter valid password");
+      <h1>REGISTRATION SUCCESSFUL</h1>
+
+    })
+   
+      </script>
+
+</body>
+</html>
